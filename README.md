@@ -1,4 +1,4 @@
-# shuffler #
+# shuffler [![Build Status](https://travis-ci.org/hughsk/shuffler.png?branch=master)](https://travis-ci.org/hughsk/shuffler?branch=master) #
 
 `shuffler` lets you swap around the order of a function's arguments by index.
 
@@ -60,8 +60,6 @@ args('a', 'b', 'c', 'd') // ['a', 'b', 'c', 'd']
 args = shuffle(args)(1, 1)
 args('a', 'b', 'c', 'd') // ['b', 'b', 'c', 'd']
 
-args = shuffle(args, {
-  carryon: false
-})(1, 1)
+args = shuffle(args, { carryon: false })(1, 1)
 args('a', 'b', 'c', 'd') // ['b', 'b']
 ```
