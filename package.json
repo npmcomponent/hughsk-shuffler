@@ -1,0 +1,22 @@
+{
+  "name": "shuffler",
+  "version": "0.0.1",
+  "description": "Allows you to swap around the order of a function's arguments by index.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/mocha -u tdd --reporter spec"
+  },
+  "keywords": [
+    "shuffle",
+    "reorder",
+    "arguments",
+    "functional",
+    "swap"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/shuffler.git"
+  }
+}
