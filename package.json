@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/hughsk/shuffler.git"
+  },
+  "devDependencies": {
+    "mocha": "~1.7.4"
   }
 }

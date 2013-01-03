@@ -57,11 +57,11 @@ passing the `carryon` option as false.
 ``` javascript
 args('a', 'b', 'c', 'd') // ['a', 'b', 'c', 'd']
 
-args = shuffle(args)(1)
+args = shuffle(args)(1, 1)
 args('a', 'b', 'c', 'd') // ['b', 'b', 'c', 'd']
 
 args = shuffle(args, {
   carryon: false
-})(1, 1, 2)
+})(1, 1)
 args('a', 'b', 'c', 'd') // ['b', 'b']
 ```

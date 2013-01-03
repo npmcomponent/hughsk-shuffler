@@ -1,0 +1,16 @@
+{
+  "name": "shuffler",
+  "description": "Allows you to swap around the order of a function's arguments by index.",
+  "version": "0.0.1",
+  "keywords": [
+    "shuffle",
+    "reorder",
+    "arguments",
+    "functional",
+    "swap"
+  ],
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ]
+}
